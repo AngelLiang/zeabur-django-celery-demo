@@ -1,4 +1,5 @@
 {
     "serverless": false,
-    "ignore_dockerfile": false
+    "ignore_dockerfile": false,
+    "start_command": "celery -A config worker -l INFO"
 }
